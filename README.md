@@ -16,8 +16,8 @@ In this practice, you will implement a breadth-first search of a matrix.
 Given a matrix, start node, and end value, search the matrix from start node
 until you find the end value using a **breadth-first search**. 
 
-Return an array of nodes tracing the search path of `[row, col]` coordinates
-from start node to the node of the end value. If the end value is not found,
+Return an array with _all_ of the [row, col] coordinates (nodes) that the breadth-first-search will visit while traversing from the start node to 
+the end value. If the end value is not found,
 return false.
 
 Examples:
