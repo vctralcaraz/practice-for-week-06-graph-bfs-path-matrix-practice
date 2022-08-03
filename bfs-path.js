@@ -62,7 +62,7 @@ function bfsPath(matrix, startNode, endValue) {
 
 // console.log(bfsPath(matrix1, [1,2], 8)); // can handle various start nodes 
 // // and end values
-// // [ [ 1, 2 ], [ 0, 2 ], [ 2, 2 ], [ 1, 3 ] ]
+// // [ [ 1, 2 ], [ 0, 2 ], [ 2, 2 ], [ 1, 1 ], [ 1, 3 ] ]
 
 // console.log(bfsPath(matrix1, [0,0], 17)); // can return false if end value 
 // // is not found
